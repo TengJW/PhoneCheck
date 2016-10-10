@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/rel_file_1"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_all"
+            style="@style/filefind_bigtxtstyle"
+            android:text="全部" />
+
+        <TextView
+            android:id="@+id/tv_file_all_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro1"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img1"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_file_2"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_text"
+            style="@style/filefind_bigtxtstyle"
+            android:text="文档" />
+
+        <TextView
+            android:id="@+id/tv_file_text_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro2"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img2"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_file_3"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_video"
+            style="@style/filefind_bigtxtstyle"
+            android:text="视频" />
+
+        <TextView
+            android:id="@+id/tv_file_video_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro3"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img3"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_file_4"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_music"
+            style="@style/filefind_bigtxtstyle"
+            android:text="音频" />
+
+        <TextView
+            android:id="@+id/tv_file_music_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro4"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img4"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_file_5"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_image"
+            style="@style/filefind_bigtxtstyle"
+            android:text="图片" />
+
+        <TextView
+            android:id="@+id/tv_file_image_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro5"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img5"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_file_6"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_var"
+            style="@style/filefind_bigtxtstyle"
+            android:text="压缩包" />
+
+        <TextView
+            android:id="@+id/tv_file_var_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro6"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img6"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rel_file_7"
+        style="@style/setting_item_style"
+        android:clickable="true" >
+
+        <TextView
+            android:id="@+id/tv_file_apk"
+            style="@style/filefind_bigtxtstyle"
+            android:text="程序包" />
+
+        <TextView
+            android:id="@+id/tv_file_apk_size"
+            style="@style/filefind_sizetxtstyle"
+            android:text="0B" />
+
+        <ProgressBar
+            android:id="@+id/file_find_pro7"
+            style="@style/file_find_progress" />
+
+        <ImageView
+            android:id="@+id/file_find_img7"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+</LinearLayout>

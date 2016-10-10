@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.myandroid.view.ActionView
+        android:id="@+id/actionview"
+        android:layout_width="match_parent"
+        android:layout_height="50dp" >
+    </com.example.myandroid.view.ActionView>
+
+    <LinearLayout
+        android:id="@+id/ll_battery"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:background="@drawable/seting_item_entry"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:padding="20dp" >
+
+        <ProgressBar
+            android:id="@+id/pb_battery_check"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="0dp"
+            android:layout_height="100dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:progress="10"
+            android:progressDrawable="@drawable/background_battery" />
+
+        <View
+            android:layout_width="10dp"
+            android:layout_height="60dp"
+            android:layout_weight="0"
+            android:background="@color/battery_progressbar_bg" />
+
+        <TextView
+            android:id="@+id/tv_battery_process"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="80%"
+            android:textColor="@color/battery_speed"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <include layout="@layout/layout_battery_list" />
+
+</LinearLayout>

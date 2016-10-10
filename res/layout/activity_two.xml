@@ -1,0 +1,70 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewpagertwo"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <Button
+        android:id="@+id/btruturn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="返回" />
+
+    <Button
+        android:id="@+id/btthree"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="下一页" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp" >
+
+        <ImageView
+            android:id="@+id/imageviewtwo"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/huidian" />
+
+        <ImageView
+            android:id="@+id/imageviewtwo2"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/huidian" />
+
+        <ImageView
+            android:id="@+id/imageviewtwo3"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:background="@drawable/huidian" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textviewtwo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:text="跳过" />
+
+    <com.example.myandroid.view.ActionView
+        android:id="@+id/actionview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </com.example.myandroid.view.ActionView>
+
+</RelativeLayout>

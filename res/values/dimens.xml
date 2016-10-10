@@ -1,0 +1,11 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <!-- 手机加速 -->
+    <dimen name="phone_ram">10sp</dimen>
+    <dimen name="speed_up_height">160dp</dimen>
+
+</resources>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFF"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/soft_class_all1"
+        style="@style/setting_item_style"
+        android:clickable="true"
+        android:onClick="hitListiem" >
+
+        <TextView
+            android:id="@+id/tv_soft_all"
+            style="@style/filefind_bigtxtstyle"
+            android:text="所有软件" />
+
+        <ImageView
+            android:id="@+id/img_soft_all"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/soft_class_user2"
+        style="@style/setting_item_style"
+        android:clickable="true"
+        android:onClick="hitListiem" >
+
+        <TextView
+            android:id="@+id/tv_soft_user"
+            style="@style/filefind_bigtxtstyle"
+            android:text="用户软件" />
+
+        <ImageView
+            android:id="@+id/img_soft_user"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/soft_class_sys3"
+        style="@style/setting_item_style"
+        android:clickable="true"
+        android:onClick="hitListiem" >
+
+        <TextView
+            android:id="@+id/tv_soft_sys"
+            style="@style/filefind_bigtxtstyle"
+            android:text="系统软件" />
+
+        <ImageView
+            android:id="@+id/img_soft_sys"
+            style="@style/setting_item_right" />
+    </RelativeLayout>
+
+</LinearLayout>

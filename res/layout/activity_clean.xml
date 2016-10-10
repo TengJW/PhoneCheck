@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.example.myandroid.view.ActionView
+        android:id="@+id/actionview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#FF66AA00" >
+
+        <TextView
+            android:id="@+id/tv_clear_file"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="0.0G"
+            android:textColor="@color/white"
+            android:textSize="44sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/tv_clear_file"
+            android:layout_alignBottom="@+id/tv_clear_file"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/tv_clear_file"
+            android:text="已发现"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/seting_item_entry"
+        android:orientation="vertical" >
+
+        <ListView
+            android:id="@+id/lv_clear"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:cacheColorHint="@color/transparent"
+            android:listSelector="@color/transparent"
+            android:visibility="invisible" >
+        </ListView>
+
+        <ProgressBar
+            android:id="@+id/pb_clear"
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:indeterminateDrawable="@drawable/progress_roate" />
+    </FrameLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_clear_ck_bt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" >
+
+        <CheckBox
+            android:id="@+id/ck_clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_oneKeySpeed"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/btn_float"
+            android:clickable="true"
+            android:text="一键清理"
+            android:textColor="#fff" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/notification_information_progress_green" >
+
+    <TextView
+        android:id="@+id/tv_mrg_txt"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="手机通讯"
+        android:textColor="#fff"
+        android:textStyle="bold" />
+
+</RelativeLayout>
